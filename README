@@ -7,7 +7,7 @@ Overview
 
 Here's the basic idea:
 
-You provide an index-input.html file. The file contains replaceable
+You provide an input/index.html file. The file contains replaceable
 bits like like "WORDPRESS_MAIN". Then you run 'make'.
 
 This code will process that file and, for each magic word as defined
