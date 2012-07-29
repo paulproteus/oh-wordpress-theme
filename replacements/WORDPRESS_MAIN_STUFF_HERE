@@ -1,0 +1,40 @@
+<?php if (have_posts()) : ?>
+<?php while (have_posts()) : the_post(); ?>
+<div class="module" id="post-<?php the_ID(); ?>">
+<div class="module-head">
+  <h2>
+    <a style='color: #333;' href="<?php the_permalink() ?>" rel="bookmark"
+    title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+  </h2>
+
+  <div style='float: left; clear: left; font-weight: bold; width: 100%; font-size: 8pt; padding: 10px 0; '>
+    by <?php the_author() ?>
+    <span style='color: #777;'>&bull;</span>
+    <?php the_time('F jS, Y') ?>
+  </div>
+
+  <div class='clearer'></div>
+</div>
+
+<div class="module-body">
+  <?php the_content('Read the rest of this entry &raquo;'); ?>
+</div>
+
+<div class="module-foot">
+  <p class="postmetadata"><?php /* the_tags('Tags: ', ', ', '<br />'); */ ?> <!-- Posted in <?php the_category(', ') ?> | --> <?php edit_post_link('Edit', '', ' | '); ?>  <?php comments_popup_link('No comments yet &#187;', '1 Comment &#187;', '% Comments &#187;'); ?></p>
+</div>
+</div>
+
+<?php endwhile; ?>
+
+<div class="navigation">
+  <div class="alignleft"><?php next_posts_link('&laquo; Older Entries') ?></div>
+  <div class="alignright"><?php previous_posts_link('Newer Entries &raquo;') ?></div>
+</div>
+
+<?php else : ?>
+<h2 class="center">Not Found</h2>
+<p class="center">Sorry, but you are looking for something that isn't here.</p>
+<?php get_search_form(); ?>
+
+<?php endif; ?>
