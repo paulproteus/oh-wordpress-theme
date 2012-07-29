@@ -24,6 +24,15 @@ copy "theme.cfg.EXAMPLE" to "theme.cfg" and 'make' again.)
 Then you can copy the contents of output/ into right path for
 your WordPress site.
 
+Details for OpenHatch
+=====================
+
+Since this toolkit was written originally for theming the OpenHatch
+blog, there is documentation on exactly how to use it with the
+OpenHatch codebase.
+
+For that, see OpenHatch_blog_theming.rst.
+
 Status
 ======
 
