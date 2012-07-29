@@ -47,7 +47,7 @@ Downloading the input file
 
 Run this command::
 
- wget https://openhatch.org/wp-theme/index -O input/index.html
+ wget https://openhatch.org/+wp-theme/index -O input/index.html
 
 Configure this repository
 =========================
