@@ -1,0 +1,9 @@
+[theme]
+name=Theme Name
+version=noversion
+description=Theme automatically generated from a template file
+uri=http://example.com/
+license_name=Apache License 2.0
+license_url=http://www.apache.org/licenses/LICENSE-2.0.html
+tags=auto
+text_domain=fill_this_in_if_you_want_translation_to_work
