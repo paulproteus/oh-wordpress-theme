@@ -19,7 +19,7 @@ output/index.php.
 
 (Note: To make it generate a style.css file, which is a required part
 of every WordPress theme, you need to configure it. To do that,
-copy "config.ini.EXAMPLE" to "config.ini" and 'make' again.)
+copy "theme.cfg.EXAMPLE" to "theme.cfg" and 'make' again.)
 
 Then you can copy the contents of output/ into right path for
 your WordPress site.
