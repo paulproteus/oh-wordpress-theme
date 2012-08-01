@@ -10,7 +10,7 @@
       <ul id="sidebar-list">
 	<li style='list-style: none;'>OpenHatch.org is an <a href='/'>open source involvement engine</a>. This is our blog and meta-world.</li>
       <li><h2>About OpenHatch</h2>
-      <ul>
+      <ul class="raquo_bullets">
 	<li><a href="/blog/">Latest blog posts</a></li>
 	<li><a href="/about/">Who? and why?</a></li>
 	<li><a href="/contact/">Contact us</a></li>
